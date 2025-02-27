@@ -1,0 +1,3 @@
+/Users/michaelgagliardi/Desktop/ECE570/cmake-build-debug/CMakeFiles/ECE570.dir
+/Users/michaelgagliardi/Desktop/ECE570/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/michaelgagliardi/Desktop/ECE570/cmake-build-debug/CMakeFiles/rebuild_cache.dir

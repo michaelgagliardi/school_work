@@ -1,0 +1,3 @@
+ls: invalid option -- z
+usage: ls [-@ABCFGHILOPRSTUWabcdefghiklmnopqrstuvwxy1%,] [--color=when] [-D format] [file ...]
+tsh> 

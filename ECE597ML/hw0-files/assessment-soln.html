@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Math Self-Assessment</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../include/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Math Self-Assessment</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#derivatives-and-basic-probability">Derivatives and Basic Probability</a></li>
+<li><a href="#partial-derivatives-and-linear-algebra">Partial Derivatives and Linear Algebra</a></li>
+</ul>
+</nav>
+<h2 id="derivatives-and-basic-probability">Derivatives and Basic Probability</h2>
+<ol type="1">
+<li><p>Let <span class="math inline">\(f(x) = 5x^2 + 3\)</span>. Write the derivative of <span class="math inline">\(f(x)\)</span>.</p>
+<p><span class="math inline">\(\frac{d}{dx}f(x) = 10x\)</span></p></li>
+<li><p>Let <span class="math inline">\(f(x) = 4e^{2x}\)</span>. Write the derivative of <span class="math inline">\(f(x)\)</span>.</p>
+<p><span class="math inline">\(\frac{d}{dx}f(x) = 8e^{2x}\)</span></p></li>
+<li><p>A fair coin has equal probability of coming up heads or tails. If a fair coin is flipped twice, what is the probability of seeing first heads, then tails:</p>
+<p><span class="math inline">\(\Pr(\text{heads}, \text{tails}) = 1/4\)</span></p></li>
+<li><p>Consider an unfair coin that has probability <span class="math inline">\(3/4\)</span> of coming up heads. If the coin is flipped three times, what is the probability of seeing tails each time:</p>
+<p><span class="math inline">\(\Pr(\text{tails}, \text{tails}, \text{tails}) = 1/4^3 = 1/64\)</span></p></li>
+<li><p>I agree to let you flip the same unfair coin one time and pay you $1 if it comes up heads and $2 if it comes up tails. Let <span class="math inline">\(X\)</span> be the number of dollars I pay you, which is a <em>random variable</em>. What is the expected value of <span class="math inline">\(X\)</span>?</p>
+<p><span class="math inline">\(E[X] = (3/4)\cdot 1 + (1/4) \cdot 2 = 5/4\)</span></p></li>
+</ol>
+<h2 id="partial-derivatives-and-linear-algebra">Partial Derivatives and Linear Algebra</h2>
+<ol type="1">
+<li><p>Let <span class="math inline">\(f(x,y)= 3xy^2+2y\)</span>. Write the following partial derivative:</p>
+<p><span class="math inline">\(\frac{\partial}{\partial{x}} f(x,y) = 3y^2\)</span></p></li>
+<li><p>Let <span class="math inline">\(f(x,y)= 3xy^2+2y\)</span>. Write the following partial derivative:</p>
+<p><span class="math inline">\(\frac{\partial}{\partial{y}} f(x,y) = 6xy + 2\)</span></p></li>
+<li><p>Let <span class="math inline">\(A\)</span> be the matrix <span class="math inline">\(\begin{bmatrix}2 &amp; 3 \\ 5 &amp; 1\end{bmatrix}\)</span> and let <span class="math inline">\(\mathbf{x}\)</span> be the (column) vector <span class="math inline">\(\begin{bmatrix}1 \\ 2\end{bmatrix}\)</span>. Let <span class="math inline">\(A^{T}\)</span> and <span class="math inline">\(\mathbf{x}^T\)</span> denote the <em>transpose</em> of <span class="math inline">\(A\)</span> and <span class="math inline">\(\mathbf{x}\)</span>, respectively. Complete the following expressions:</p>
+<p><span class="math inline">\(A \mathbf{x} = \begin{bmatrix}2 &amp; 3 \\ 5 &amp; 1\end{bmatrix} \cdot \begin{bmatrix}1 \\ 2\end{bmatrix} =  \begin{bmatrix}8 \\ 7 \end{bmatrix}\)</span></p>
+<p><span class="math inline">\(A^T = \begin{bmatrix}2 &amp; 5 \\ 3 &amp; 1\end{bmatrix}\)</span></p>
+<p><span class="math inline">\(\mathbf{x}^T A = \begin{bmatrix}8 &amp; 7 \end{bmatrix}\cdot\begin{bmatrix}2 &amp; 3 \\ 5 &amp; 1\end{bmatrix} =  \begin{bmatrix}12 &amp; 5 \end{bmatrix}\)</span></p></li>
+</ol>
+</body>
+</html>
